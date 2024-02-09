@@ -9,6 +9,7 @@ def main():
     for i in range(25000):
         if i <= 1000:
             basic.show_number(i)
+            serial.write_number(i)
         else:
             break
 pass2 = 0

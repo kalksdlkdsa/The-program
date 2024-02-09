@@ -9,6 +9,7 @@ function main() {
     for (let i = 0; i < 25000; i++) {
         if (i <= 1000) {
             basic.showNumber(i)
+            serial.writeNumber(i)
         } else {
             break
         }
